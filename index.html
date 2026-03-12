@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Consulting Wallah</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="welcomeMessage()">
+
+<header>
+
+<h2>Consulting Wallah</h2>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="cart" onclick="toggleCart()">
+🛒 Cart <span id="cartCount" class="cart-count">0</span>
+</div>
+
+</header>
+
+<section class="hero">
+
+<h1>Get Your Dream Job</h1>
+
+<p>Empowering Careers & Businesses with Real-World Skills and Strategic Consulting with Consulting Wallah.</p>
+
+<a class="btn" href="products.html">Explore Products</a>
+
+</section>
+
+<section class="page">
+
+<h1>Why Choose Us</h1>
+
+<div class="card-container">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1551434678-e076c223a692">
+
+<h3>Investment Banking</h3>
+
+<p>Master the fundamentals of investment banking with expert mentors from top-tier firms.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
+
+<h3>Management Consulting</h3>
+
+<p>Learn case-solving methodologies and frameworks used by leading consulting firms.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+
+<h3>Product Management</h3>
+
+<p>Build product strategy and management skills with hands-on projects and mentorship.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="cart-panel" id="cartPanel">
+
+<div class="cart-header">
+
+<h3>Your Cart</h3>
+
+<button class="close-cart" onclick="toggleCart()">✖</button>
+
+</div>
+
+<ul id="cartItems"></ul>
+
+<div class="cart-footer">
+
+<button onclick="clearCart()" class="clear-cart">Clear Cart</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-col">
+
+<h3 class="logo">Consulting Wallah</h3>
+
+<p>
+Empowering Careers & Businesses with Real-World Skills and Strategic Consulting
+</p>
+
+<div class="social-icons">
+
+<a href="https://www.instagram.com/Consulting Wallahofficial.in/"><i class="fab fa-linkedin"></i></a>
+<a href="https://www.linkedin.com/company/Consulting Wallahevents"><i class="fab fa-instagram"></i></a>
+<a href="https://discord.com/invite/5WjkenMeHC"><i class="fab fa-discord"></i></a>
+<a href="https://youtube.com/@Consulting Wallahofficial-in?si=9eGdfHSz66hm5krV"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Quick Links</h4>
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Resources</h4>
+
+<a href="#">Management Consulting</a>
+<a href="#">Investment Banking</a>
+<a href="#">Product Management</a>
+<a href="#">Workshops</a>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Contact</h4>
+
+<p>Email: hello@Consulting Wallah.com</p>
+<p>Location: Mumbai, India</p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>© 2026 Consulting Wallah | Learn • Build • Launch</p>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
